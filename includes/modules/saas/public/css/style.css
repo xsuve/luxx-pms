@@ -1,0 +1,39 @@
+/* Saas Module */
+
+/**
+
+  Pop Box
+
+**/
+.pop-box {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 9999;
+  padding: 0px 100px;
+  background-color: #f8fafb;
+}
+.pop-box-close {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  cursor: pointer;
+}
+.pop-box-close {
+  font-size: 40px;
+  line-height: 40px;
+}
+.pop-box-logo {
+  width: 64px;
+  height: 64px;
+}
+.pop-box-logo.payment-logo {
+  margin: 0px auto;
+}
+.pop-box-logo img {
+  max-width: 100%;
+}

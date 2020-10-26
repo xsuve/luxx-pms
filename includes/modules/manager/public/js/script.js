@@ -1,0 +1,6 @@
+/* Manager Module */
+
+// URL
+$(function() {
+	//
+});

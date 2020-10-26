@@ -1,0 +1,66 @@
+/* Reminders Module */
+
+/* Lightbox */
+#managerBox {
+    display: none;
+}
+
+/* Reminders Module */
+.reminder-box {
+    margin-bottom: 10px;
+}
+.reminder-box.widget-box {
+    margin-bottom: 15px;
+}
+.reminder-box.widget-box:last-of-type {
+    margin-bottom: 0px;
+}
+.reminders-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.reminder-box-title {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8e8e8e;
+    padding-bottom: 3px;
+}
+.reminder-box-button {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid #8e8e8e;
+    text-align: center;
+    cursor: pointer;
+}
+.reminder-box-button i {
+    color: #fff;
+    font-size: 15px;
+    display: none;
+}
+.reminder-box-button.completed {
+    border: 0px;
+    background-image: linear-gradient(to bottom right, #5691ff, #9955fe);
+}
+.reminder-box-button.completed i {
+    display: block;
+}
+.reminder-box-action a i {
+    font-size: 18px;
+    color: #8e8e8e;
+}
+.reminder-widget-box-actions a button {
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    border: 0px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.reminder-widget-box-actions a button i {
+    color: #484848;
+    font-size: 18px;
+}

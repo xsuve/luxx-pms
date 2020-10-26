@@ -1,0 +1,171 @@
+/**
+
+    Luxx Original Theme
+
+**/
+
+/* Initials */
+html, body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff;
+}
+.no-hover-primary:hover {
+  background-color: #54a0f7;
+}
+.no-hover-secondary:hover {
+  background-color: #dcecfd;
+}
+.no-hover-gray:hover {
+  background-color: #e7ebee;
+}
+
+/* Navbar Custom */
+.navbar-c {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 80px;
+  padding: 0px 15%;
+  z-index: 9999;
+}
+.navbar-c-logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 36px;
+  height: 36px;
+}
+.navbar-c-logo img {
+  max-width: 100%;
+}
+.navbar-c-links a {
+  margin-left: 30px;
+}
+.navbar-c-links a:hover {
+  color: #fff;
+}
+
+/* Header */
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.header-title {
+  font-size: 46px;
+  line-height: 56px;
+  font-weight: 600;
+  padding: 0px 25%;
+}
+.header-text {
+  padding: 0px 30%;
+}
+.header-boxes {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 300px;
+  bottom: -150px;
+}
+.header-boxes .box {
+  box-shadow: none;
+}
+.header-boxes .contact-box, .header-boxes .project-box, .header-boxes .invoice-box, .header-boxes .module-box, .header-boxes .project-box-2, .header-boxes .contact-box-2, .header-boxes .stats-box, .header-boxes .stats-box-2 {
+  position: absolute;
+}
+.header-boxes .contact-box {
+  min-width: 200px;
+  left: 40px;
+}
+.header-boxes .project-box {
+  width: 290px;
+  top: 50px;
+  left: 275px;
+}
+.header-boxes .invoice-box {
+  min-width: 300px;
+  right: 40px;
+  top: -20px;
+}
+.header-boxes .module-box {
+  width: 310px;
+  right: 375px;
+  top: 100px;
+}
+.header-boxes .project-box-2 {
+  width: 310px;
+  right: 375px;
+  top: 425px;
+}
+.header-boxes .contact-box-2 {
+  width: 290px;
+  left: 275px;
+  top: 420px;
+}
+.header-boxes .stats-box {
+  min-width: 300px;
+  right: 40px;
+  top: 330px;
+}
+.header-boxes .stats-box-2 {
+  left: 110px;
+  top: 310px;
+}
+
+/* Partners */
+.partners {
+  background-color: #f7f7f7;
+  padding: 480px 150px 50px 150px;
+}
+.partners-img {
+  text-align: center;
+}
+.partners-img img {
+  max-width: 80%;
+}
+
+/* Product */
+.product {
+  background-color: #fff;
+  padding: 100px 150px 50px 150px;
+}
+.product-title {
+  line-height: 34px;
+}
+.product-img img {
+  max-width: 85%;
+}
+
+/* Modules */
+.modules {
+  background-color: #fff;
+  padding: 100px 150px;
+}
+.modules-text {
+  padding: 0px 150px;
+}
+.modules-module {
+  /*position: absolute;*/
+  box-shadow: 0px 0px 10px 2px #eaeaea;
+  border-radius: 7px;
+}
+.modules-module img {
+  max-width: 60%;
+  margin: 0px auto;
+}
+.modules-module.small {
+  width: 84px;
+  height: 84px;
+}
+.modules-module.medium {
+  width: 100px;
+  height: 100px;
+}
+.modules-module.big {
+  width: 114px;
+  height: 114px;
+}

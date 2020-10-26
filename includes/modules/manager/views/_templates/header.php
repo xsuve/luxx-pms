@@ -1,0 +1,2 @@
+<link rel="stylesheet" type="text/css" href="<?php echo URL; ?>includes/modules/manager/public/css/style.css">
+<script type="text/javascript" src="<?php echo URL; ?>includes/modules/manager/public/js/script.js"></script>

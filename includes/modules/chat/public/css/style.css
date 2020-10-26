@@ -1,0 +1,116 @@
+/* Chat Module */
+.chat-min-height {
+  min-height: 500px;
+}
+.chat-header {
+  border-bottom: 1px solid #f2f5f7;
+}
+.chat-discussions-texts {
+  border-left: 1px solid #f2f5f7;
+}
+.chat-discussions-texts-height {
+  height: calc(100% - 42px);
+}
+.discussion-box {
+  position: relative;
+  border-bottom: 1px solid #f2f5f7;
+}
+.discussion-box.last {
+  border-bottom: 0px;
+}
+.discussion-box:hover {
+  background-color: #f8fafb;
+}
+.discussion-box-time {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+.discussion-box-account-image {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.discussion-box-account-image img {
+  max-width: 100%;
+}
+.discussion-box-details {
+  display: inline-block;
+  vertical-align: middle;
+}
+.discussion-box-account-name {
+  font-size: 14px;
+  line-height: 14px;
+}
+.discussion-box-text {
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.chat-box-account-image {
+  display: inline-block;
+  vertical-align: top;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+}
+.chat-box-account-image img {
+  max-width: 100%;
+}
+.chat-box-account-image.account-one {
+  left: 0px;
+}
+.chat-box-account-image.account-two {
+  right: 0px;
+}
+.chat-box-text {
+  display: inline-block;
+  vertical-align: top;
+}
+.chat-box-text.account-one {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-weight: 300;
+}
+.chat-box-text.account-two {
+  background-color: #f2f5f7;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.chat-box-date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.chat-send-message-box {
+  background-color: #f2f2f2;
+  height: 42px;
+}
+.chat-send-message-box input {
+  width: calc(100% - 58px);
+  border: 0px;
+  background-color: transparent;
+}
+.chat-send-message-box input::placeholder {
+  color: #8a9eae;
+  opacity: 1;
+}
+.chat-send-message-box-btn {
+  cursor: pointer;
+}
+
+.chat-account-profile {
+  border-left: 1px solid #f2f5f7;
+}
