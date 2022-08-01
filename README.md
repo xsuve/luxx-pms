@@ -1,4 +1,4 @@
-![luxx PMS - Project Management System](https://xsuve.com/portfolio/luxxcms/header.png)
+![luxx PMS - Project Management System](screenshot.png)
 
 `2018 Series`
 # luxx PMS - Project Management System
